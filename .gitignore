@@ -1,0 +1,46 @@
+# Environment variables and secrets
+.env
+
+# Sensitive data in data/ directory
+data/
+!data/.gitkeep
+
+# Google OAuth credentials and tokens
+google_credentials.json
+google_token.json
+service-account.json
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and development files
+test-results/
+screenshots/
+snapshots/
+weather_state.json
+scraping_timeout_*.png
+login_debug_*.png
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
